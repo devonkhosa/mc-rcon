@@ -7,5 +7,3 @@ const electron = require("electron");
 ls.stdout.on("data", data => {
     console.log(`stdout: ${data}`);
 });
-
-
